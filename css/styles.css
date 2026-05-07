@@ -50,7 +50,12 @@ nav {
 
 			a {
 				text-decoration: none;
+				color: #551A8B;
 				font-weight: 600;
+			}
+
+			a:link { 
+				color: #551A8B;
 			}
 		}
 
@@ -83,7 +88,16 @@ main {
 		padding: 2rem;
 		padding-bottom: 8rem;
 		background-color: #fcf7f8;
-		width: 20rem;
+		width: 80%;
+		
+		form {
+			display: flex;	flex-direction: column; gap: 1em;
+			width: 80%;
+		}
+
+		.campo {
+			width: 100%;
+		}
 	}
 
 	.card:hover {
