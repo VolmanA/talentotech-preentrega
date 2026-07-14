@@ -1,2 +1,2 @@
 # talentotech-frontend
-Pre Entrega de curso.
+Entrega de curso.
